@@ -3,8 +3,8 @@ spring:
     gigachat:
       auth:
         bearer:
-          client-id: 019eb25a-d5bc-7dbe-bc76-d3f734ad02f1
-          api-key: MDE5ZWIyNWEtZDViYy03ZGJlLWJjNzYtZDNmNzM0YWQwMmYxOmMxYjMxODg4LTFmMzEtNDIyZi05M2NjLWY1NGIzYjNhNjY4Mg==
+          client-id: ${CLIENT_ID}
+          api-key: ${API_KEY}
         scope: GIGACHAT_API_PERS
         unsafe-ssl: true
       chat:
