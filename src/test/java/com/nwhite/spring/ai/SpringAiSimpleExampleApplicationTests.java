@@ -1,0 +1,13 @@
+package com.nwhite.spring.ai;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringAiSimpleExampleApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

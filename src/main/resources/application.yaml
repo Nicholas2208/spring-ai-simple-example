@@ -1,0 +1,26 @@
+spring:
+  ai:
+    gigachat:
+      auth:
+        bearer:
+          client-id: 019eb25a-d5bc-7dbe-bc76-d3f734ad02f1
+          api-key: MDE5ZWIyNWEtZDViYy03ZGJlLWJjNzYtZDNmNzM0YWQwMmYxOmMxYjMxODg4LTFmMzEtNDIyZi05M2NjLWY1NGIzYjNhNjY4Mg==
+        scope: GIGACHAT_API_PERS
+        unsafe-ssl: true
+      chat:
+        options:
+          model: GigaChat
+          temperature: 0.5
+          top-p: 0.5
+          max-tokens: 200
+          repetition-penalty: 1
+          update-interval: 0
+      embedding:
+        options:
+          model: Embeddings
+          dimensions: 1024
+      internal:
+        connect-timeout: 15s
+        read-timeout: 15s
+        make-system-prompt-first-message-in-memory: true
+
